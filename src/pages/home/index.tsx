@@ -1,4 +1,4 @@
-import { Post } from '../../components/Post'
+import {Post} from '../../components/Post'
 import styles from './styles.module.css'
 
 export default function Home () {
