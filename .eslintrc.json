@@ -1,10 +1,8 @@
 {
-  "extends": [
-    "next/core-web-vitals",
-    "prettier" // Add "prettier" last. This will turn off eslint rules conflicting with prettier. This is not what will format our code
-  ],
+  "extends": ["next/core-web-vitals", "prettier"],
   "rules": {
-    "prefer-const": "error"
+    "prefer-const": "error",
+    "camelcase": "error"
   },
 
   // resolve message 'WARNING: You are currently running a version of TypeScript which is not officially supported by @typescript-eslint/typescript-estree.'
